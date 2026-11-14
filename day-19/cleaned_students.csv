@@ -1,0 +1,12 @@
+name,age,score,city
+Alice,20,85.0,Boston
+Bob,,92.0,Chicago
+Charlie,19,,Denver
+David,21,95.0,Seattle
+Eve,23,88.0,Miami
+Frank,20,73.0,
+Grace,,91.0,Austin
+Henry,22,79.0,Chicago
+Isabella,24,97.0,New York
+Jack,21,,Seattle
+Kelly,,84.0,Boston

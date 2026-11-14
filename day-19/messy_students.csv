@@ -1,0 +1,14 @@
+name,age,score,city
+Alice,20,85,Boston
+Bob,unknown,92,Chicago
+Charlie,19,missing,Denver
+David,21,95,Seattle
+Eve,23,88,Miami
+Frank,20,73,
+Alice,20,85,Boston
+Grace,not available,91,Austin
+Henry,22,79,Chicago
+Isabella,24,97,New York
+Jack,21,invalid,Seattle
+Kelly,,84,Boston
+Bob,unknown,92,Chicago
