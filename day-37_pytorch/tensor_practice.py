@@ -24,4 +24,5 @@ y = torch.tensor([4, 5, 6])
 print(x)
 print(y)
 print(x + y)
+print(x * y)
 
