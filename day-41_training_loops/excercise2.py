@@ -17,7 +17,7 @@ print("Og w2: ", w2)
 print("Og b1: ", b1)
 print("Og b2: ", b2)
 
-# Perform the forward pass
+# Training loop
 for epoch in range(epochs):
     # Clear previous gradients
     w1.grad = None
