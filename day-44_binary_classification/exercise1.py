@@ -12,15 +12,15 @@ logits = torch.tensor([
 sigmoid = nn.Sigmoid()
 
 # Apply sigmoid to logits
-probabilties = sigmoid(logits)
+probabilities = sigmoid(logits)
 # Conver the probabilities into binary predictions using a threshold of 0.5
-predictions_five = (probabilties >= 0.5).long()
+predictions_five = (probabilities >= 0.5).long()
 print(f"Og Logits:\n{logits}")
-print(f"Probabilities:\n{probabilties}")
+print(f"Probabilities:\n{probabilities}")
 print(f"Predictions for 0.5 threshold:\n{predictions_five}")
 
 # binary predictions with a threshold of 0.7
-predictions_seven = (probabilties >= 0.7).long()
+predictions_seven = (probabilities >= 0.7).long()
 
 print(f"Predictions for 0.7 threshold:\n{predictions_seven}")
 
