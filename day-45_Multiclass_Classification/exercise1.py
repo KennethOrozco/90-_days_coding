@@ -31,4 +31,4 @@ print("Probabilities accuracy: ", probabilities_accuracy)
 logits_accuracy = (predicted_class_logits == targets).float().mean().item()
 print("Logits accuracy: ", logits_accuracy)
 # Print shapes
-print(f"Shapes: -- logits: {logits.shape} -- probabilities: {probabilities.shape} -- predictions: {predicted_class.shape} -- targets: {targets.shape}") 
+print(f"Shapes: -- logits: {logits.shape} -- probabilities: {probabilities.shape} -- predictions: {predicted_class.shape} -- targets: {targets.shape}")
